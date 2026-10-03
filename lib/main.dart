@@ -275,9 +275,9 @@ class _HomePageState extends State<HomePage> {
                   Text('${_source!.length} characters extracted'),
                   const SizedBox(height: 8),
                   _box(
-                    height: 110,
+                    height: 300.0,
                     child: SelectableText(
-                      _source!.length > 500 ? '${_source!.substring(0, 500)}…' : _source!,
+                      _source!,
                     ),
                   ),
                 ],

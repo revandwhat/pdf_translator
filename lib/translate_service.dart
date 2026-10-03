@@ -40,7 +40,7 @@ class StyleStore {
 
 class TranslateService {
   // If the API ever says "model not found", change this string.
-  static const _model = 'gemini-2.5-flash';
+  static const _model = 'gemini-3.8-flash';
   static const _url =
       'https://generativelanguage.googleapis.com/v1beta/models/$_model:generateContent';
 
